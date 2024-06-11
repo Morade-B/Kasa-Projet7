@@ -1,0 +1,43 @@
+
+.carousel {
+    position: relative;
+    width: 100%;
+    
+  
+  }
+  
+  .carousel-slide {
+    display: flex;
+    justify-content: center;
+   
+    width: 100%;
+   
+  }
+  
+  .carousel-slide img {
+    width: 100%;
+   
+    
+  }
+  
+  .carousel-button {
+    position: absolute;
+    top: 50%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+ 
+  }
+  
+  .prev-button {
+    left: 10px;
+  }
+  
+  .next-button {
+    right: 10px;
+  }
+  
+
+
