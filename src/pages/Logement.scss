@@ -1,0 +1,113 @@
+.logement-page {
+  color: #ff6060;
+  .logement-image {
+    width: 100%;
+    height: 415px;
+    object-fit: cover;
+    border-radius: 25px;
+  }
+
+  .logement-header {
+    display: flex;
+    justify-content: space-between;
+
+    .logement__title {
+      h1 {
+        margin: 0px;
+        font-family: Montserrat;
+        font-size: 36px;
+        font-weight: 500;
+        line-height: 51.34px;
+        text-align: left;
+        color: #ff6060;
+      }
+
+      h2 {
+        color: #000000;
+        margin: 0 0 30px 0;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 25.67px;
+        text-align: left;
+      }
+
+      .logement__tag {
+        border: 3px solid #ff6060;
+        margin-right: 10px;
+        padding: 8px;
+        background-color: #ff6060;
+
+        color: white;
+        border-radius: 12px;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 19.96px;
+        text-align: center;
+      }
+    }
+
+    .logement__owner {
+      .logement__owner__details {
+        display: flex;
+        position: relative;
+
+        .logement__owner__badge {
+          height: 50px;
+          width: 50px;
+          border-radius: 50%;
+          margin-left: 0.5rem;
+          margin-top: 10px;
+        }
+
+        .logement__owner__stars {
+          position: absolute;
+          top: 80px;
+          right: 15px;
+
+          font-size: 30px;
+
+          .on {
+            color: red;
+          }
+
+          .off {
+            color: rgb(215, 204, 204);
+          }
+        }
+      }
+    }
+  }
+  .logement__content__description {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+    .logement__description {
+      flex-basis: 50%;
+      p {
+        margin-block: 0;
+      }
+
+      .description__content1 {
+        background-color: #f6f6f6;
+        color: black;
+        padding: 15px;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 25.67px;
+        text-align: left;
+      }
+      .description__content2 {
+        background-color: #f6f6f6;
+        color: black;
+        padding: 15px;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+      }
+    }
+  }
+}
