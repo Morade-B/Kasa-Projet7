@@ -12,17 +12,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    cursor: pointer;
+   
 
     h2 {
-      margin: 0;
-      font-size: 1.5rem;
+     
       color: white;
-      font-family: Montserrat;
-
-      font-weight: 700;
-      line-height: 19.96px;
-      text-align: center;
+    
     }
 
     .arrow {
@@ -32,13 +27,14 @@
       margin-right: 15px;
       background-image: url("/src/assets/ChevronOpen.png");
       background-size: cover;
-      transform: rotate(0deg);
+      transform: rotate(180deg);
       transition: transform 0.3s ease;
-      color: black;
+    
+      cursor: pointer;
     }
 
     .arrow.up {
-      transform: rotate(180deg);
+      transform: rotate(0deg);
     }
   }
 

@@ -55,7 +55,7 @@ const Logement = () => {
       </div>
       <div className="logement__content__description">
         <div className="logement__description">
-          <Collapse title="description">
+          <Collapse title="Description">
             <p className="description__content1">{logement.description}</p>
           </Collapse>
         </div>
