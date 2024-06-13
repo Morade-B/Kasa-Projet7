@@ -28,8 +28,25 @@ font-size: 48px;
     }
   }
 
-  //** Media query **//
+  
 //@media (max-width: 1024px) tablette si besoin 
 
 
-//@media (max-width: 767px) and (min-width:320px) {
+@media (max-width: 767px) and (min-width:320px) {
+
+
+  .banner {
+    padding: 10px;
+
+
+h1 {
+  position: absolute;
+  left: 5%;
+  font-size: 25px;
+  padding-right: 80px;
+  top: 80px;
+}
+
+
+}
+  }

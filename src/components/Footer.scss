@@ -21,3 +21,20 @@
     margin-bottom: -50px;
   }
 }
+
+
+@media (max-width: 767px) and (min-width:320px) {
+
+  .footer {
+   img { 
+    margin-bottom: 0;
+   }
+
+   .text {
+    font-size: 17px;
+    margin-bottom: 0;
+    padding: 0 100px;
+    line-height: 20px;
+   }
+  }
+}

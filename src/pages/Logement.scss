@@ -122,3 +122,38 @@ color: #ff6060;
     }
   }
 }
+
+
+@media (max-width: 767px) and (min-width:320px) {
+
+  .logement-page {
+    padding: 10px;
+
+    .logement-header {
+
+      display: flex;
+      flex-direction: column;
+   
+      .logement__owner{
+
+        display: flex;
+        flex-direction: row-reverse;
+        padding-bottom: 0;
+       
+  
+       .logement__owner__details{
+     
+     display: flex;
+     
+      
+  
+      .logement__owner__stars {
+       position: absolute;
+       right: 300px;
+       top: 10px;
+      }
+      }
+    }
+}
+}
+}

@@ -42,3 +42,19 @@ text-align: left;
   }
 }
 }
+
+@media (max-width: 767px) and (min-width:320px) {
+
+
+  .container-cards {
+    background: white;
+    display: grid;
+    grid-template-columns: 1fr ;
+    margin: 30px 15px;
+    padding-bottom: 0;
+
+    .card {
+      margin: 0;
+    }
+  }
+}
