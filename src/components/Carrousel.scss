@@ -65,4 +65,20 @@ color: #FFFFFF;
   .slide-number{
     opacity: 0;
   }
+
+  .carousel-slide  {
+    height: 255px;
+
+    img {
+      height: 255px;
+    }
+}
+.carousel-button {
+  top:40%;
+
+  img {
+    width: 24px;
+  }
+}
+
 }
