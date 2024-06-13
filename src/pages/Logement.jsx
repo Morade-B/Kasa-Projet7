@@ -34,16 +34,17 @@ const Logement = () => {
           </div>
         </div>
         <div className="logement__owner">
-          <div className="logement__owner__details">
+          <div className="owner__bloc">
+            <div className="logement__owner__details">
             <h3>{logement.host.name}</h3>
 
-            <div>
+           
               <img
                 src={logement.host.picture}
                 alt={logement.host.name}
                 className="logement__owner__badge"
               />
-            </div>
+           </div>
 
             <div className="logement__owner__stars">
               {[1, 2, 3, 4, 5].map((num, id) => (

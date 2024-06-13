@@ -50,9 +50,11 @@
 
     .logement__owner {
       padding: 15px;
+
+     
       .logement__owner__details {
         display: flex;
-        position: relative;
+       
 
         h3 {
           font-family: Montserrat;
@@ -63,7 +65,7 @@ color: #ff6060;
 
 
         }
-
+      }
         .logement__owner__badge {
           height: 50px;
           width: 50px;
@@ -73,9 +75,7 @@ color: #ff6060;
         }
 
         .logement__owner__stars {
-          position: absolute;
-          top: 80px;
-          right: 15px;
+        
 
           font-size: 30px;
 
@@ -87,7 +87,7 @@ color: #ff6060;
             color: rgb(215, 204, 204);
           }
         }
-      }
+     
     }
   }
   .logement__content__description {
@@ -137,23 +137,20 @@ color: #ff6060;
    
       .logement__owner{
 
-        display: flex;
-        flex-direction: row-reverse;
-        padding-bottom: 0;
        
+     
+        padding-bottom: 0;
+        .owner__bloc {
+          display: flex;
+          flex-direction: row-reverse;
+          justify-content: space-between;
+        }
   
-       .logement__owner__details{
-     
-     display: flex;
-     
-      
   
       .logement__owner__stars {
-       position: absolute;
-       right: 290px;
-       top: 10px;
+        padding-top: 20px;
       }
-      }
+      
     }
 }
 
