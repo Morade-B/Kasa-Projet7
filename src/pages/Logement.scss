@@ -13,28 +13,22 @@
 
     .logement__title {
       h1 {
-        
         font-family: Montserrat;
         font-size: 36px;
         font-weight: 500;
-       
+
         color: #ff6060;
         font-family: Montserrat;
-
-
       }
 
       h2 {
-        
         margin: -25px 0 25px 0;
         font-family: Montserrat;
         font-size: 18px;
         font-weight: 500;
-       
       }
 
       .logement__tag {
-       
         margin-right: 10px;
         padding: 5px 25px;
         background-color: #ff6060;
@@ -44,50 +38,42 @@
         font-family: Montserrat;
         font-size: 14px;
         font-weight: 700;
-        
       }
     }
 
     .logement__owner {
       padding: 15px;
 
-     
       .logement__owner__details {
         display: flex;
-       
 
         h3 {
           font-family: Montserrat;
-font-size: 18px;
-font-weight: 500;
+          font-size: 18px;
+          font-weight: 500;
 
-color: #ff6060;
-
-
+          color: #ff6060;
         }
       }
-        .logement__owner__badge {
-          height: 50px;
-          width: 50px;
-          border-radius: 50%;
-          margin-left: 0.5rem;
-          margin-top: 10px;
+      .logement__owner__badge {
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        margin-left: 0.5rem;
+        margin-top: 10px;
+      }
+
+      .logement__owner__stars {
+        font-size: 30px;
+
+        .on {
+          color: red;
         }
 
-        .logement__owner__stars {
-        
-
-          font-size: 30px;
-
-          .on {
-            color: red;
-          }
-
-          .off {
-            color: rgb(215, 204, 204);
-          }
+        .off {
+          color: rgb(215, 204, 204);
         }
-     
+      }
     }
   }
   .logement__content__description {
@@ -123,41 +109,33 @@ color: #ff6060;
   }
 }
 
-
-@media (max-width: 767px) and (min-width:320px) {
-
+@media (max-width: 767px) and (min-width: 320px) {
   .logement-page {
     padding: 10px;
 
     .logement-header {
-
       display: flex;
       flex-direction: column;
       margin-bottom: 20px;
-   
-      .logement__owner{
 
-       
-     
+      .logement__owner {
         padding-bottom: 0;
         .owner__bloc {
           display: flex;
           flex-direction: row-reverse;
           justify-content: space-between;
         }
-  
-  
-      .logement__owner__stars {
-        padding-top: 20px;
-      }
-      
-    }
-}
 
-.logement__content__description{
-  display: flex;
-  flex-direction: column;
-  margin: 0;
-}
-}
+        .logement__owner__stars {
+          padding-top: 20px;
+        }
+      }
+    }
+
+    .logement__content__description {
+      display: flex;
+      flex-direction: column;
+      margin: 0;
+    }
+  }
 }

@@ -1,84 +1,70 @@
-
 .carousel {
-    position: relative;
-    width: 100%;
-   
-    
-  }
-  
-  .carousel-slide {
-    display: flex;
-    justify-content: center;
-   height: 415px;
-    width: 100%;
-    transition: transform 0.5s ease;
-   
-  }
-  
-  .carousel-slide img {
-    width: 100%;
-    height: 415px;
-    object-fit: cover;
-    
-    border-radius: 25px;
-   
-    
-  }
-  
-  .carousel-button {
-    position: absolute;
-    top: 50%;
-   
-    background: transparent;
- 
-    cursor: pointer;
-    border: none;
- 
-  }
-  
-  .prev-button {
-    left: 10px;
-  }
-  
-  .next-button {
-    right: 10px;
-  }
-  
-
-
- .slide-number {
-
- position: absolute;
- left: 50%;
- bottom: 5%;
- font-family: Montserrat;
-font-size: 18px;
-font-weight: 500;
-
-color: #FFFFFF;
-
-
+  position: relative;
+  width: 100%;
 }
 
-@media (max-width: 767px) and (min-width:320px) {
+.carousel-slide {
+  display: flex;
+  justify-content: center;
+  height: 415px;
+  width: 100%;
+  transition: transform 0.5s ease;
+}
 
-  .slide-number{
+.carousel-slide img {
+  width: 100%;
+  height: 415px;
+  object-fit: cover;
+
+  border-radius: 25px;
+}
+
+.carousel-button {
+  position: absolute;
+  top: 50%;
+
+  background: transparent;
+
+  cursor: pointer;
+  border: none;
+}
+
+.prev-button {
+  left: 10px;
+}
+
+.next-button {
+  right: 10px;
+}
+
+.slide-number {
+  position: absolute;
+  left: 50%;
+  bottom: 5%;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 500;
+
+  color: #ffffff;
+}
+
+@media (max-width: 767px) and (min-width: 320px) {
+  .slide-number {
     opacity: 0;
   }
 
-  .carousel-slide  {
+  .carousel-slide {
     height: 255px;
 
     img {
       height: 255px;
     }
-}
-.carousel-button {
-  top:40%;
-
-  img {
-    width: 24px;
   }
-}
+  .carousel-button {
+    top: 40%;
 
+    img {
+      width: 24px;
+    }
+  }
 }

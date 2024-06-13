@@ -1,7 +1,6 @@
 
 
 import React, { useState } from 'react';
-import logements from "../../fichier.json";
 import Left_arrow from "../assets/left_arrow.png";
 import Right_arrow from "../assets/right_arrow.png";
 

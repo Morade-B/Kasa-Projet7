@@ -33,11 +33,9 @@
     text-align: left;
     color: black;
   }
-
- 
 }
-@media (max-width: 767px) and (min-width:320px) {
-  .erreur{
+@media (max-width: 767px) and (min-width: 320px) {
+  .erreur {
     padding: 0 40px;
 
     h1 {

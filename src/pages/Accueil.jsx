@@ -6,7 +6,7 @@ function Accueil() {
   return (
     <>
       <div>
-       <Banner /> 
+        <Banner />
         <Cards />
       </div>
     </>

@@ -12,12 +12,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-   
 
     h2 {
-     
       color: white;
-    
     }
 
     .arrow {
@@ -29,7 +26,7 @@
       background-size: cover;
       transform: rotate(180deg);
       transition: transform 0.3s ease;
-    
+
       cursor: pointer;
     }
 
