@@ -7,10 +7,12 @@ import Carrousel from "../components/Carrousel";
 
 
 const Logement = () => {
+  // Utilisation du hook useParams pour extraire l'ID du logement à partir de l'URL pour identifier le logement spécifique à afficher.
   const { id } = useParams();
+  // Recherche du logement correspondant dans le tableau logements à partir de l'ID extrait de l'URL.
   const logement = logements.find((logement) => logement.id === id);
 
-
+//Si aucun logement correspondant n'est trouvé, le composant renvoie la page Erreur404.
   if (!logement) {
     return <Erreur404 />;
   }

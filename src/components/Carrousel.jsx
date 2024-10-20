@@ -5,24 +5,25 @@ import Left_arrow from "../assets/left_arrow.png";
 import Right_arrow from "../assets/right_arrow.png";
 
 
-
+// On utilise 'useState' pour gérer l'index de l'image actuellement affichée 
 const Carousel = ({logement}) => {
   const [Index, setIndex] = useState(0);
   
-
+// Si l'index atteint la dernière image, il revient a la première.
   const nextSlide = () => {
     setIndex((image) =>
       image === logement.pictures.length - 1 ? 0 : image + 1
     );
   };
 
+  // si l'index est à la première image, il passe à la dernière image.
   const prevSlide = () => {
     setIndex((image) =>
       image === 0 ? logement.pictures.length - 1 : image - 1
     );
   };
 
- 
+ // Les flèches et la numérotation ne s'affichent que si le logement a plus d'une image.
 
   return (
     <div className="carousel">

@@ -1,5 +1,7 @@
+// On importe React, et useState pour gérer l'état du composant.
 import React, { useState } from "react";
 
+// On définit un état 'isOpen' initialisé à false, contenu fermé par défaut.
 const Collapse = ({ title, children }) => {
   const [isOpen, setIsOpen] = useState(false);
 
